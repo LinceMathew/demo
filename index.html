@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Lince</title>
-		<link rel="stylesheet"  href="./html/style.css"  />
+		<link rel="stylesheet" href="./html/style.css" />
 	</head>
 	<body>
 		<header>
@@ -17,7 +17,7 @@
 		</header>
 
 		<main>
-			<div class="banner-container">
+			<section class="banner-container">
 				<div class="container">
 					<div class="left-section">
 						<h1>im Lince</h1>
@@ -25,31 +25,31 @@
 						<button>Login</button>
 					</div>
 					<div class="right-section">
-						
-						<h4> please fill the section </h4>
-						<form action="">
+						<h4>please fill the section</h4>
+						<form action="" autocomplete="off">
 							<div class="input-group">
-								<input type="text" id="name">
+								<input type="text" id="name" required="" />
 								<label for="name">Name</label>
 							</div>
 							<div class="input-group">
-								<input type="email" id="email">
+								<input type="email" id="email" required="" />
 								<label for="email">Email</label>
 							</div>
 							<div class="input-group">
-								<input type="password" id="password">
+								<input
+									type="password"
+									id="password"
+									required=""
+								/>
 								<label for="password">password</label>
 							</div>
 							<div class="submit-section">
-								<input type="submit" class="submit-button"></input>
+								<input type="submit" class="submit-button" />
 							</div>
-							
-
-
 						</form>
 					</div>
 				</div>
-			</div>
+			</section>
 		</main>
 	</body>
 </html>
